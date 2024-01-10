@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;800&display=swap');
+
+* {
+    font-family: 'Barlow Condensed';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(27, 33, 50, 0.75);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+header div {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav a {
+    color: #e3cdbd;
+    margin-left: 48px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    height: 80vh;
+    background-image: url("../imgs/banner2.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner div {
+    display: flex;
+    align-items: center;
+}
+
+main section {
+    margin: 0;
+}
+
+main > section > div {
+    width: 80%;
+    padding: 5% auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-block {
+    padding: 4em 4em;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    font-size: 32px;
+}
+
+.two-rows-sec div div {
+    width: 50%;
+}
+
+.button {
+    background-color: #1b2132;
+    border-radius: 100px;
+    color: #e3cdbd;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.full-width {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.home-section-2-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh;
+    background-image: url("../imgs/ban.jpeg");
+    background-size: cover;
+}
+
+.milestones-section {
+    background-color: #1b2132;
+    padding: 32px 0 32px 0;
+}
+
+.milestone {
+    color: #985d6f;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.milestone p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.milestone h2 {
+    margin: 0 auto;
+    padding: 0 auto;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  footer {
+    background-color: #1b2132;
+    font-size: 12px;
+  }
+
+  footer > div {
+    display: flex;
+    color: #e3cdbd;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    height: 120px;
+  }
+
+  footer nav a {
+    color: #e3cdbd;
+    font-size: 14px;
+    padding: 6px;
+    text-decoration: none;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    height: 32px;
+    margin: 24px;
+  }
+
+  .details-section-1-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh;
+    background-image: url("../imgs/at-lp5x_06.png");
+    background-size: cover;
+}
+
+.steps-row {
+    display: flex;
+    color: #e3cdbd;
+}
+
+.steps-items {
+    padding: 2em;
+    width: 100%;
+    margin: 16px;
+    background-color: #985d6f;
+    border-radius: 16px;
+}
+
+.steps-items h3 {
+    letter-spacing: 1px;
+}
+
+.steps-items:hover {
+    box-shadow: 5px 5px 15px gray;
+    transition: 0.3s;
+}
+
+.video-container {
+    width: 100%;
+    height: 300px
+}
+
+.video-container video{
+    width: 100%;
+    object-fit: cover;
+}
+
+.review-container {
+    display: block;
+    background-color: #1b2132;
+    color: #e3cdbd;
+    width: 60%;
+    padding: 24px 32px 16px 32px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.review-container:hover {
+    width: 65%;
+    height: 110%;
+    transition: 0.3s;
+}
+
+.banner-about-us {
+    height: 80vh !important;
+    background-image: url("../imgs/AT-LP5X_lifestyle_banner_desktop_01-2000x1000.jpeg");
+    background-color: rgba(27, 33, 50, 0.75);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #e3cdbd;
+    display: flex;
+    align-items: center;
+}
+
+.banner-about-us p {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.profile {
+    padding: 32px 48px 16px 32px;
+    border: 2px solid #1b2132;
+    border-radius: 16px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 300px;
+}
+
+.profile h3 {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.profile p {
+    margin-top: 0;
+}
+
+.about-text {
+    padding-left: 32px;
+}
+
+.profile-info img {
+    padding: 0 32px 0 32px;
+        border-radius: 50%;
+        width: 200px; 
+        height: 200px;
+        object-fit: cover;
+}
+
+.profile:hover {
+    background-color: #d9af91;
+    transition: 0.3s;
+}
+
+/* Megumi Form CSS */
+
+.support-form {
+    width: 50%;
+    display: block;
+    color: #e3cdbd;
+    padding: 48px;
+}
+
+.support-form h4 {
+    font-weight: 300;
+}
+
+.support-form textarea {
+    width: 50%;
+}
+
+fieldset {
+border: 0;
+border-top: 1px solid #e3cdbd;
+}
+
+legend {
+text-transform: uppercase;
+color: #e3cdbd;;
+}
+
+fieldset div {
+margin: 1em 0;
+}
+
+div label {
+display: block;
+width: 20%;
+float: left;
+text-align: right;
+padding-right: 1em;
+}
+
+/* input[required] {} */
+
+label.error {
+color: red;
+float: right;
+}
+
+label img {
+vertical-align: middle;
+}
+
+small {
+font-size: 70%;
+float: right;
+}
+
+form .button {
+    background-color: #985d6f;
+    border: none;
+    margin: 32px auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+form .button:hover {
+    background-color: #4b4f6c;
+}
+
+.stars span {
+display: flex;
+float: left;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+
+.stars input[type='radio'] {
+display: none;
+/* Hide default radio buttons */
+}
+
+.stars label {
+color: #D2D2D2;
+/* Color unselected stars gray */
+font-size: 30px;
+/* Set star size to 20px */
+cursor: pointer;
+/* Make a finger shape when the cursor hovers over it */
+}
+
+.stars label:hover, .stars label:hover~label, .stars input[type='radio']:checked~label {
+color: #F8C601;
+/* Make everything yellow after the selected star */
+}
+
+.support-review {
+    display: flex;
+    align-items: center;
+}
+
+.banner-process-form {
+    height: 40vh;
+    background-image: url("../imgs/pexels-pavel-danilyuk-7658388.jpg");
+    background-size: cover;
+    background-color: #4b4f6c;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
